@@ -10,6 +10,10 @@ end
 
 def print_first_directors_movie_titles
  # movieTitle = pretty_print_nds(directors_database)
+  list = 0
   abo = directors_database[0][:movies]
-  print pretty_print_nds(abo)
+  while list < abo.count do
+    list+=1
+  end
+  list
 end
