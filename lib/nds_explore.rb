@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   list = 0
   abo = directors_database[0][:movies]
   while list < abo.count do
-    puts abo[list][0]
+    puts abo[list][:title]
     list+=1
   end
 end
