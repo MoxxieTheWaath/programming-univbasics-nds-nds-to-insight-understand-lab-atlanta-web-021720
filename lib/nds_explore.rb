@@ -11,4 +11,5 @@ end
 def print_first_directors_movie_titles
   movieTitle = pretty_print_nds(directors_database)
   firstHash = movieTitle.first
+  print firstHash
 end
