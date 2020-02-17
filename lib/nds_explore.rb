@@ -15,5 +15,5 @@ def print_first_directors_movie_titles
   while list < abo.count do
     list+=1
   end
-  list
+  print list
 end
