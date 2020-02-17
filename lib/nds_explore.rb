@@ -10,6 +10,6 @@ end
 
 def print_first_directors_movie_titles
   movieTitle = pretty_print_nds(directors_database)
-  abo = movieTitle[0]
+  abo = movieTitle[0][0]
   print abo
 end
