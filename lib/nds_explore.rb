@@ -11,5 +11,5 @@ end
 def print_first_directors_movie_titles
   movieTitle = pretty_print_nds(directors_database)
   abo = movieTitle[0][:movies]
-  print abo
+  print pretty_print_nds(abo)
 end
